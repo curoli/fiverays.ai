@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="{{language}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="{{path}}">
+  <title>{{title}} · Five Rays AI</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #fffef8;
+      --ink: #191925;
+      --blue: #2020a2;
+      --line: #d9d8ce;
+      --yellow: #ffed00;
+      font-family: system-ui, sans-serif;
+      line-height: 1.65;
+    }
+
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); }
+    a { color: var(--blue); text-underline-offset: .22em; }
+    a:hover { text-decoration-thickness: .15em; }
+    a:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
+    .wrap { width: min(100% - 2.5rem, 68rem); margin-inline: auto; }
+    header { border-block: .4rem solid var(--yellow); border-bottom-width: 0; }
+    .masthead {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.25rem 2rem;
+      align-items: center;
+      justify-content: space-between;
+      padding-block: 1.2rem;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand { display: inline-flex; align-items: center; }
+    .brand svg { width: 5rem; height: auto; }
+    .menus, nav { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem 1.25rem; }
+    nav a { font-weight: 600; }
+    .languages { font-size: .9rem; }
+    .languages a:first-child { display: none; }
+    .languages a[aria-current] { color: var(--ink); text-decoration: none; }
+    :root:lang(en) [data-copy="de"], :root:lang(de) [data-copy="en"] { display: none; }
+
+    main { padding-block: clamp(2.5rem, 7vw, 6rem); min-block-size: 65vh; }
+    h1, h2 { line-height: 1.08; text-wrap: balance; }
+    h1 {
+      font-size: clamp(2.5rem, 8vw, 5.5rem);
+      letter-spacing: -.065em;
+      max-width: 16ch;
+      margin: 0 0 1.4rem;
+    }
+
+    h2 {
+      font-size: clamp(1.5rem, 4vw, 2rem);
+      letter-spacing: -.025em;
+      margin: 2rem 0 .7rem;
+      border-top: 1px solid var(--line);
+      padding-top: 1rem;
+      max-width: 48rem;
+    }
+
+    p, ul { margin: 0 0 1rem; max-width: 65ch; }
+    main p strong:first-child { font-size: clamp(1.2rem, 3vw, 1.6rem); }
+    footer { border-top: 1px solid var(--line); padding-block: 1.4rem 2rem; }
+    footer .wrap { display: flex; flex-wrap: wrap; gap: .6rem 1.25rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap masthead">
+      <a class="brand" href="/{{language}}/" aria-label="Five Rays AI">
+        <svg viewBox="0 0 100 88" width="100" height="88" aria-hidden="true">
+          <defs>
+            <pattern id="scanlines" width="100" height="5" patternUnits="userSpaceOnUse">
+              <path d="M0 4.5H100" stroke="white"/>
+            </pattern>
+          </defs>
+          <path fill="#ff0" d="M0 0h100v88H0z"/>
+          <g font-family="monospace" font-weight="900" font-size="32" text-anchor="middle">
+            <text x="50" y="25" fill="#00f" textLength="69" lengthAdjust="spacingAndGlyphs">FIVE</text>
+            <text x="50" y="55" fill="#00b000" textLength="81" lengthAdjust="spacingAndGlyphs">RAYS</text>
+            <text x="50" y="85" fill="#f00" textLength="31" lengthAdjust="spacingAndGlyphs">AI</text>
+          </g>
+          <path fill="url(#scanlines)" d="M0 0h100v88H0z"/>
+        </svg>
+      </a>
+      <div class="menus">
+        <nav>
+          <a href="/{{language}}/projects/"><span data-copy="en">Projects</span><span data-copy="de">Projekte</span></a>
+          <a href="/{{language}}/news/"><span data-copy="en">News</span><span data-copy="de">Aktuelles</span></a>
+        </nav>
+        <nav class="languages">{{navigation}}</nav>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">{{content}}</main>
+  <footer>
+    <div class="wrap">
+      <span>Five Rays AI</span>
+      <a href="/{{language}}/privacy/"><span data-copy="en">Privacy notice for offline apps</span><span data-copy="de">Datenschutzerklärung für Offline-Apps</span></a>
+    </div>
+  </footer>
+</body>
+</html>
