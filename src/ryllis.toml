@@ -1,0 +1,3 @@
+source = "."
+template = "page.html"
+default_language = "en"
