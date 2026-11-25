@@ -6,6 +6,11 @@
   <base href="{{path}}">
   <title>{{title}} · Five Rays AI</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%2088%22%20width=%22100%22%20height=%2288%22%3E%3Cdefs%3E%3Cpattern%20id=%22scanlines%22%20width=%22100%22%20height=%225%22%20patternUnits=%22userSpaceOnUse%22%3E%3Cpath%20d=%22M0%204.5H100%22%20stroke=%22white%22/%3E%3C/pattern%3E%3C/defs%3E%3Cpath%20fill=%22%23ff0%22%20d=%22M0%200h100v88H0z%22/%3E%3Cg%20font-family=%22monospace%22%20font-weight=%22900%22%20font-size=%2232%22%20text-anchor=%22middle%22%3E%3Ctext%20x=%2250%22%20y=%2225%22%20fill=%22%2300f%22%20textLength=%2269%22%20lengthAdjust=%22spacingAndGlyphs%22%3EFIVE%3C/text%3E%3Ctext%20x=%2250%22%20y=%2255%22%20fill=%22%2300b000%22%20textLength=%2281%22%20lengthAdjust=%22spacingAndGlyphs%22%3ERAYS%3C/text%3E%3Ctext%20x=%2250%22%20y=%2285%22%20fill=%22%23f00%22%20textLength=%2231%22%20lengthAdjust=%22spacingAndGlyphs%22%3EAI%3C/text%3E%3C/g%3E%3Cpath%20fill=%22url%28%23scanlines%29%22%20d=%22M0%200h100v88H0z%22/%3E%3C/svg%3E">
+  <script>
+    if (["ar", "ur"].includes(document.documentElement.lang)) {
+      document.documentElement.dir = "rtl";
+    }
+  </script>
   <style>
     :root {
       color-scheme: light;
@@ -39,10 +44,38 @@
     .brand svg { width: 5rem; height: auto; }
     .menus, nav { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem 1.25rem; }
     nav a { font-weight: 600; }
-    .languages { font-size: .9rem; }
-    .languages a:first-child { display: none; }
-    .languages a[aria-current] { color: var(--ink); text-decoration: none; }
-    :root:lang(en) [data-copy="de"], :root:lang(de) [data-copy="en"] { display: none; }
+    .languages { position: relative; }
+    .languages summary {
+      cursor: pointer;
+      border: 1px solid var(--line);
+      border-radius: .35rem;
+      padding: .4rem .65rem;
+    }
+    .languages summary:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
+    .languages nav {
+      margin-block-start: .3rem;
+      display: grid;
+      gap: 0;
+      max-block-size: min(60vh, 24rem);
+      overflow: auto;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: .35rem;
+      box-shadow: 0 .3rem 1rem #19192522;
+    }
+    @media (min-width: 50rem) {
+      .languages nav {
+        position: absolute;
+        z-index: 1;
+        inset-inline-end: 0;
+        min-inline-size: max-content;
+      }
+    }
+    .languages nav a:not([hreflang]) { display: none; }
+    .languages nav a { padding: .4rem .75rem; text-align: start; }
+    .languages nav a:focus-visible { outline-offset: -3px; }
+    .languages nav a[aria-current] { color: var(--ink); background: #ffed0033; }
+    :root:lang(ar) :is(h1, h2), :root:lang(ur) :is(h1, h2) { letter-spacing: normal; }
 
     main { padding-block: clamp(2.5rem, 7vw, 6rem); min-block-size: 65vh; }
     h1, h2 { line-height: 1.08; text-wrap: balance; }
@@ -89,11 +122,14 @@
       </a>
       <div class="menus">
         <nav>
-          <a href="/{{language}}/projects/"><span data-copy="en">Projects</span><span data-copy="de">Projekte</span></a>
-          <a href="/{{language}}/news/"><span data-copy="en">News</span><span data-copy="de">Aktuelles</span></a>
-          <a href="/{{language}}/privacy/"><span data-copy="en">Privacy notice</span><span data-copy="de">Datenschutzerklärung</span></a>
+          <a href="/{{language}}/projects/" data-label="projects">Projects</a>
+          <a href="/{{language}}/news/" data-label="news">News</a>
+          <a href="/{{language}}/privacy/" data-label="privacy">Privacy notice</a>
         </nav>
-        <nav class="languages">{{navigation}}</nav>
+        <details class="languages">
+          <summary>Language</summary>
+          <nav>{{navigation}}</nav>
+        </details>
       </div>
     </div>
   </header>
@@ -101,8 +137,60 @@
   <footer>
     <div class="wrap">
       <span>Five Rays AI</span>
-      <span><span data-copy="en">Powered by</span><span data-copy="de">Erstellt mit</span> <a href="/{{language}}/projects/ryllis.html">Ryllis</a></span>
+      <span><span data-label="poweredBy">Powered by</span> <a href="/{{language}}/projects/ryllis.html">Ryllis</a></span>
     </div>
   </footer>
+  <script>
+    // Use the same flags and language names as the Sanqi app.
+    const languages = {
+      en: ["🇬🇧", "English", "Language", "Projects", "News", "Privacy notice", "Powered by"],
+      de: ["🇩🇪", "Deutsch", "Sprache", "Projekte", "Aktuelles", "Datenschutzerklärung", "Erstellt mit"],
+      id: ["🇮🇩", "Bahasa Indonesia", "Bahasa", "Proyek", "Berita", "Pemberitahuan privasi", "Dibuat dengan"],
+      ar: ["🇸🇦", "العربية", "اللغة", "المشاريع", "الأخبار", "إشعار الخصوصية", "أُنشئ باستخدام"],
+      zh: ["🇨🇳", "中文", "语言", "项目", "新闻", "隐私声明", "构建工具"],
+      es: ["🇪🇸", "Español", "Idioma", "Proyectos", "Noticias", "Aviso de privacidad", "Creado con"],
+      tr: ["🇹🇷", "Türkçe", "Dil", "Projeler", "Haberler", "Gizlilik bildirimi", "Kullanılan araç"],
+      hi: ["🇮🇳", "हिन्दी", "भाषा", "परियोजनाएँ", "समाचार", "गोपनीयता सूचना", "इसके साथ बनाया गया:"],
+      fr: ["🇫🇷", "Français", "Langue", "Projets", "Actualités", "Politique de confidentialité", "Créé avec"],
+      bn: ["🇧🇩", "বাংলা", "ভাষা", "প্রকল্প", "সংবাদ", "গোপনীয়তা বিজ্ঞপ্তি", "সাইট তৈরির টুল:"],
+      pt: ["🇵🇹", "Português", "Idioma", "Projetos", "Notícias", "Aviso de privacidade", "Criado com"],
+      ur: ["🇵🇰", "اردو", "زبان", "منصوبے", "خبریں", "رازداری کا نوٹس", "سائٹ بنانے کا ٹول:"],
+      ru: ["🇷🇺", "Русский", "Язык", "Проекты", "Новости", "Уведомление о конфиденциальности", "Создано с помощью"],
+      ja: ["🇯🇵", "日本語", "言語", "プロジェクト", "ニュース", "プライバシー通知", "サイト生成ツール"]
+    };
+
+    const [flag, name, languageLabel, projects, news, privacy, poweredBy] =
+      languages[document.documentElement.lang] ?? languages.en;
+    const labels = { projects, news, privacy, poweredBy };
+    for (const element of document.querySelectorAll("[data-label]")) {
+      element.textContent = labels[element.dataset.label];
+    }
+
+    const dropdown = document.querySelector(".languages");
+    const summary = dropdown.querySelector("summary");
+    const options = dropdown.querySelector("nav");
+    summary.textContent = flag + " " + name;
+    summary.setAttribute("aria-label", languageLabel + " · " + name);
+    options.setAttribute("aria-label", languageLabel);
+    for (const link of options.querySelectorAll("a[hreflang]")) {
+      const locale = languages[link.hreflang];
+      if (!locale) continue;
+      const [optionFlag, optionName] = locale;
+      const icon = document.createElement("span");
+      icon.setAttribute("aria-hidden", "true");
+      icon.textContent = optionFlag;
+      link.dir = "auto";
+      link.replaceChildren(icon, " " + optionName);
+    }
+    dropdown.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && dropdown.open) {
+        dropdown.open = false;
+        summary.focus();
+      }
+    });
+    document.addEventListener("click", (event) => {
+      if (!dropdown.contains(event.target)) dropdown.open = false;
+    });
+  </script>
 </body>
 </html>
