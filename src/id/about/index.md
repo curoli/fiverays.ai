@@ -42,7 +42,7 @@ Kami berusaha mengurangi hambatan bahasa, teknis, dan biaya dengan membuat peran
 
 ## Orang di balik Five Rays AI
 
-Oliver Axel Ruebenacker mendirikan dan saat ini mengelola Five Rays AI sendiri. Studio ini menjadi percobaan tentang apa yang dapat dibuat satu orang dengan bantuan AI.
+Oliver Axel Rübenacker mendirikan dan saat ini mengelola Five Rays AI sendiri. Studio ini menjadi percobaan tentang apa yang dapat dibuat satu orang dengan bantuan AI.
 
 Oliver memiliki pengalaman puluhan tahun di bidang sains dan pengembangan perangkat lunak, serta rasa ingin tahu terhadap teknologi baru.
 

@@ -42,7 +42,7 @@ Procuramos reduzir barreiras linguísticas, técnicas e financeiras. Sempre que 
 
 ## A pessoa por trás da Five Rays AI
 
-Oliver Axel Ruebenacker fundou a Five Rays AI e dirige atualmente o estúdio sozinho. Assim, o estúdio explora o que uma só pessoa pode concretizar com a ajuda da IA.
+Oliver Axel Rübenacker fundou a Five Rays AI e dirige atualmente o estúdio sozinho. Assim, o estúdio explora o que uma só pessoa pode concretizar com a ajuda da IA.
 
 Oliver alia décadas de experiência científica e de desenvolvimento de software à curiosidade pelas possibilidades das novas tecnologias.
 

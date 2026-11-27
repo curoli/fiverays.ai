@@ -42,7 +42,7 @@ We work to lower language, technical, and financial barriers by making software 
 
 ## The person behind Five Rays AI
 
-Oliver Axel Ruebenacker founded Five Rays AI and currently runs it on his own. The studio is itself an experiment in what one person can build with AI.
+Oliver Axel Rübenacker founded Five Rays AI and currently runs it on his own. The studio is itself an experiment in what one person can build with AI.
 
 Oliver brings decades of experience in science and software development and a curiosity about what new technologies make possible.
 

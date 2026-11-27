@@ -1,8 +1,8 @@
-# Oliver Axel Ruebenacker
+# Oliver Axel Rübenacker
 
 *Fondateur de Five Rays AI, physicien et développeur de logiciels*
 
-![Portrait d’Oliver Axel Ruebenacker](/assets/oliver.jpg)
+![Portrait d’Oliver Axel Rübenacker](/assets/oliver.jpg)
 
 ## De la curiosité à la science
 

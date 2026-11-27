@@ -1,8 +1,8 @@
-# Oliver Axel Ruebenacker
+# Oliver Axel Rübenacker
 
 *Pendiri Five Rays AI, fisikawan, dan pengembang perangkat lunak*
 
-![Potret Oliver Axel Ruebenacker](/assets/oliver.jpg)
+![Potret Oliver Axel Rübenacker](/assets/oliver.jpg)
 
 ## Dari rasa ingin tahu ke sains
 

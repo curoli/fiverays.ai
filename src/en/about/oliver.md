@@ -1,12 +1,12 @@
-# Oliver Axel Ruebenacker
+# Oliver Axel Rübenacker
 
 *Founder of Five Rays AI, physicist, and software developer*
 
-![Portrait of Oliver Axel Ruebenacker](/assets/oliver.jpg)
+![Portrait of Oliver Axel Rübenacker](/assets/oliver.jpg)
 
 ## From curiosity to science
 
-Oliver Ruebenacker began programming at twelve and has been fascinated by the interplay of human thinking and computers ever since.
+Oliver Rübenacker began programming at twelve and has been fascinated by the interplay of human thinking and computers ever since.
 
 He was drawn to the natural sciences and to how mathematical models explain complex phenomena. He studied physics at the University of Karlsruhe and earned a doctorate in physics at the University of Massachusetts Amherst, where he studied theoretical descriptions of quantum gases.
 

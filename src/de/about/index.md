@@ -42,7 +42,7 @@ Wir möchten sprachliche, technische und finanzielle Barrieren abbauen. Dazu geh
 
 ## Der Mensch hinter Five Rays AI
 
-Five Rays AI wurde von Oliver Axel Ruebenacker gegründet und wird derzeit von ihm allein betrieben. Damit ist Five Rays AI selbst ein praktisches Experiment: Was kann ein einzelner Mensch mithilfe künstlicher Intelligenz verwirklichen?
+Five Rays AI wurde von Oliver Axel Rübenacker gegründet und wird derzeit von ihm allein betrieben. Damit ist Five Rays AI selbst ein praktisches Experiment: Was kann ein einzelner Mensch mithilfe künstlicher Intelligenz verwirklichen?
 
 Oliver verbindet jahrzehntelange Erfahrung in Wissenschaft und Softwareentwicklung mit Neugier auf die Möglichkeiten neuer Technologien.
 
