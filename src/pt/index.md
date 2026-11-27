@@ -2,6 +2,8 @@
 
 **Criamos ferramentas para programadores, jogos e aplicações experimentais.**
 
+[Sobre a Five Rays AI](about/)
+
 ## [Projetos](projects/)
 
 Eis uma breve visita guiada pelos nossos projetos.

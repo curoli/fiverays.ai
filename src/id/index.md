@@ -2,6 +2,8 @@
 
 **Kami membuat alat untuk pengembang, gim, dan aplikasi eksperimental.**
 
+[Tentang Five Rays AI](about/)
+
 ## [Proyek](projects/)
 
 Mari lihat sekilas proyek kami.

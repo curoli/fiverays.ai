@@ -96,6 +96,11 @@
     }
 
     p, ul { margin: 0 0 1rem; max-width: 65ch; }
+    main img { max-inline-size: 100%; block-size: auto; }
+    main img[src="/assets/oliver.jpg"] {
+      inline-size: min(100%, 24rem);
+      aspect-ratio: auto 3 / 4;
+    }
     main p strong:first-child { font-size: clamp(1.2rem, 3vw, 1.6rem); }
     footer { border-top: 1px solid var(--line); padding-block: 1.4rem 2rem; }
     footer .wrap { display: flex; flex-wrap: wrap; gap: .6rem 1.25rem; }
@@ -111,6 +116,7 @@
         <nav>
           <a href="/{{language}}/projects/" data-label="projects">Projects</a>
           <a href="/{{language}}/news/" data-label="news">News</a>
+          <a href="/{{language}}/about/" data-label="about">About</a>
           <a href="/{{language}}/privacy/" data-label="privacy">Privacy notice</a>
         </nav>
         <details class="languages">
@@ -130,25 +136,25 @@
   <script>
     // Use the same flags and language names as the Sanqi app.
     const languages = {
-      en: ["🇬🇧", "English", "Language", "Projects", "News", "Privacy notice", "Powered by"],
-      de: ["🇩🇪", "Deutsch", "Sprache", "Projekte", "Aktuelles", "Datenschutzerklärung", "Erstellt mit"],
-      id: ["🇮🇩", "Bahasa Indonesia", "Bahasa", "Proyek", "Berita", "Pemberitahuan privasi", "Dibuat dengan"],
-      ar: ["🇸🇦", "العربية", "اللغة", "المشاريع", "الأخبار", "إشعار الخصوصية", "أُنشئ باستخدام"],
-      zh: ["🇨🇳", "中文", "语言", "项目", "新闻", "隐私声明", "构建工具"],
-      es: ["🇪🇸", "Español", "Idioma", "Proyectos", "Noticias", "Aviso de privacidad", "Creado con"],
-      tr: ["🇹🇷", "Türkçe", "Dil", "Projeler", "Haberler", "Gizlilik bildirimi", "Kullanılan araç"],
-      hi: ["🇮🇳", "हिन्दी", "भाषा", "परियोजनाएँ", "समाचार", "गोपनीयता सूचना", "इसके साथ बनाया गया:"],
-      fr: ["🇫🇷", "Français", "Langue", "Projets", "Actualités", "Politique de confidentialité", "Créé avec"],
-      bn: ["🇧🇩", "বাংলা", "ভাষা", "প্রকল্প", "সংবাদ", "গোপনীয়তা বিজ্ঞপ্তি", "সাইট তৈরির টুল:"],
-      pt: ["🇵🇹", "Português", "Idioma", "Projetos", "Notícias", "Aviso de privacidade", "Criado com"],
-      ur: ["🇵🇰", "اردو", "زبان", "منصوبے", "خبریں", "رازداری کا نوٹس", "سائٹ بنانے کا ٹول:"],
-      ru: ["🇷🇺", "Русский", "Язык", "Проекты", "Новости", "Уведомление о конфиденциальности", "Создано с помощью"],
-      ja: ["🇯🇵", "日本語", "言語", "プロジェクト", "ニュース", "プライバシー通知", "サイト生成ツール"]
+      en: ["🇬🇧", "English", "Language", "Projects", "News", "Privacy notice", "Powered by", "About"],
+      de: ["🇩🇪", "Deutsch", "Sprache", "Projekte", "Aktuelles", "Datenschutzerklärung", "Erstellt mit", "Über uns"],
+      id: ["🇮🇩", "Bahasa Indonesia", "Bahasa", "Proyek", "Berita", "Pemberitahuan privasi", "Dibuat dengan", "Tentang kami"],
+      ar: ["🇸🇦", "العربية", "اللغة", "المشاريع", "الأخبار", "إشعار الخصوصية", "أُنشئ باستخدام", "نبذة عنا"],
+      zh: ["🇨🇳", "中文", "语言", "项目", "新闻", "隐私声明", "构建工具", "关于我们"],
+      es: ["🇪🇸", "Español", "Idioma", "Proyectos", "Noticias", "Aviso de privacidad", "Creado con", "Acerca de"],
+      tr: ["🇹🇷", "Türkçe", "Dil", "Projeler", "Haberler", "Gizlilik bildirimi", "Kullanılan araç", "Hakkımızda"],
+      hi: ["🇮🇳", "हिन्दी", "भाषा", "परियोजनाएँ", "समाचार", "गोपनीयता सूचना", "इसके साथ बनाया गया:", "हमारे बारे में"],
+      fr: ["🇫🇷", "Français", "Langue", "Projets", "Actualités", "Politique de confidentialité", "Créé avec", "À propos"],
+      bn: ["🇧🇩", "বাংলা", "ভাষা", "প্রকল্প", "সংবাদ", "গোপনীয়তা বিজ্ঞপ্তি", "সাইট তৈরির টুল:", "আমাদের সম্পর্কে"],
+      pt: ["🇵🇹", "Português", "Idioma", "Projetos", "Notícias", "Aviso de privacidade", "Criado com", "Sobre nós"],
+      ur: ["🇵🇰", "اردو", "زبان", "منصوبے", "خبریں", "رازداری کا نوٹس", "سائٹ بنانے کا ٹول:", "ہمارے بارے میں"],
+      ru: ["🇷🇺", "Русский", "Язык", "Проекты", "Новости", "Уведомление о конфиденциальности", "Создано с помощью", "О нас"],
+      ja: ["🇯🇵", "日本語", "言語", "プロジェクト", "ニュース", "プライバシー通知", "サイト生成ツール", "私たちについて"]
     };
 
-    const [flag, name, languageLabel, projects, news, privacy, poweredBy] =
+    const [flag, name, languageLabel, projects, news, privacy, poweredBy, about] =
       languages[document.documentElement.lang] ?? languages.en;
-    const labels = { projects, news, privacy, poweredBy };
+    const labels = { projects, news, privacy, poweredBy, about };
     for (const element of document.querySelectorAll("[data-label]")) {
       element.textContent = labels[element.dataset.label];
     }

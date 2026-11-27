@@ -2,6 +2,8 @@
 
 **We’re a software factory building developer tools, games, and experimental applications.**
 
+[About Five Rays AI](about/)
+
 ## [Projects](projects/)
 
 Here’s a quick tour of our projects.
