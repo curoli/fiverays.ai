@@ -47,3 +47,5 @@ Five Rays AI wurde von Oliver Axel Ruebenacker gegründet und wird derzeit von i
 Oliver verbindet jahrzehntelange Erfahrung in Wissenschaft und Softwareentwicklung mit Neugier auf die Möglichkeiten neuer Technologien.
 
 [Oliver kennenlernen](oliver.html)
+
+[Zurück zur Startseite](../)

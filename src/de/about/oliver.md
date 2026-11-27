@@ -34,4 +34,4 @@ Auch außerhalb von Wissenschaft und Technologie ist Oliver neugierig und vielse
 
 [LinkedIn-Profil](https://www.linkedin.com/in/oliver-a-ruebenacker-70ba947/)
 
-[Zurück zu Five Rays AI](index.html)
+[Zurück zu „Über Five Rays AI“](./)

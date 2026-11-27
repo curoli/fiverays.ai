@@ -2,6 +2,8 @@
 
 **Geliştirici araçları, oyunlar ve deneysel uygulamalar üretiyoruz.**
 
+[Five Rays AI hakkında](about/)
+
 ## [Projeler](projects/)
 
 Projelerimize kısaca göz atalım.

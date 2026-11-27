@@ -2,6 +2,8 @@
 
 **Wir sind eine Softwarefabrik und entwickeln Werkzeuge für Entwickler, Spiele und experimentelle Anwendungen.**
 
+[Über Five Rays AI](about/)
+
 ## [Projekte](projects/)
 
 Hier ist ein kurzer Rundgang durch unsere Projekte.
