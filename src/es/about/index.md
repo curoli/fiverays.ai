@@ -42,7 +42,7 @@ Queremos reducir barreras lingüísticas, técnicas y económicas. Procuramos qu
 
 ## La persona detrás de Five Rays AI
 
-Oliver Axel Ruebenacker fundó Five Rays AI y actualmente lo lleva en solitario. El estudio es una forma de explorar qué puede construir una sola persona con ayuda de la IA.
+Oliver Axel Rübenacker fundó Five Rays AI y actualmente lo lleva en solitario. El estudio es una forma de explorar qué puede construir una sola persona con ayuda de la IA.
 
 Oliver combina décadas de experiencia científica y de desarrollo con la curiosidad por las nuevas tecnologías.
 

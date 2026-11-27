@@ -42,7 +42,7 @@ Yazılımı mümkün olduğunca çok dilli, anlaşılır ve erişilebilir yapara
 
 ## Five Rays AI’ın arkasındaki kişi
 
-Oliver Axel Ruebenacker, Five Rays AI’ı kurdu ve şu anda tek başına yürütüyor. Stüdyo, bir kişinin yapay zekâ yardımıyla neler yapabileceğini araştıran bir deneydir.
+Oliver Axel Rübenacker, Five Rays AI’ı kurdu ve şu anda tek başına yürütüyor. Stüdyo, bir kişinin yapay zekâ yardımıyla neler yapabileceğini araştıran bir deneydir.
 
 Oliver bilim ve yazılım geliştirmedeki onlarca yıllık deneyimini yeni teknolojilere duyduğu merakla birleştiriyor.
 

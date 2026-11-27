@@ -1,8 +1,8 @@
-# Oliver Axel Ruebenacker
+# Oliver Axel Rübenacker
 
 *Five Rays AI の創設者、物理学者、ソフトウェア開発者*
 
-![Oliver Axel Ruebenacker の肖像写真](/assets/oliver.jpg)
+![Oliver Axel Rübenacker の肖像写真](/assets/oliver.jpg)
 
 ## 好奇心から科学へ
 

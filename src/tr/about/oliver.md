@@ -1,8 +1,8 @@
-# Oliver Axel Ruebenacker
+# Oliver Axel Rübenacker
 
 *Five Rays AI’ın kurucusu, fizikçi ve yazılım geliştirici*
 
-![Oliver Axel Ruebenacker’ın portresi](/assets/oliver.jpg)
+![Oliver Axel Rübenacker’ın portresi](/assets/oliver.jpg)
 
 ## Meraktan bilime
 

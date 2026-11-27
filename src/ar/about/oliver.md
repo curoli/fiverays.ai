@@ -1,4 +1,4 @@
-# Oliver Axel Ruebenacker
+# Oliver Axel Rübenacker
 
 *مؤسس Five Rays AI وفيزيائي ومطوّر برمجيات*
 

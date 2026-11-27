@@ -1,12 +1,12 @@
-# Oliver Axel Ruebenacker
+# Oliver Axel Rübenacker
 
 *Gründer von Five Rays AI, Physiker und Softwareentwickler*
 
-![Porträt von Oliver Axel Ruebenacker](/assets/oliver.jpg)
+![Porträt von Oliver Axel Rübenacker](/assets/oliver.jpg)
 
 ## Von der Neugier zur Wissenschaft
 
-Mit zwölf Jahren begann Oliver Ruebenacker zu programmieren. Es war der Anfang einer bis heute andauernden Begeisterung für die Möglichkeiten, die sich aus dem Zusammenspiel von menschlichem Denken und Computern ergeben.
+Mit zwölf Jahren begann Oliver Rübenacker zu programmieren. Es war der Anfang einer bis heute andauernden Begeisterung für die Möglichkeiten, die sich aus dem Zusammenspiel von menschlichem Denken und Computern ergeben.
 
 Schon früh faszinierten ihn die Naturwissenschaften und insbesondere die Fähigkeit mathematischer Modelle, komplexe Phänomene zu beschreiben und verständlich zu machen. Diese Faszination führte ihn zum Physikstudium an der Universität Karlsruhe und anschließend an die University of Massachusetts Amherst in den USA, wo er in Physik promovierte und sich mit der theoretischen Beschreibung von Quantengasen beschäftigte.
 

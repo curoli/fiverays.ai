@@ -1,4 +1,4 @@
-# Oliver Axel Ruebenacker
+# Oliver Axel Rübenacker
 
 *Five Rays AI کے بانی، ماہرِ طبیعیات اور سافٹ ویئر ڈویلپر*
 

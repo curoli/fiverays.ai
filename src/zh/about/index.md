@@ -42,7 +42,7 @@ Five Rays AI 是一家独立软件工作室，探索并实践人与人工智能�
 
 ## Five Rays AI 背后的人
 
-Oliver Axel Ruebenacker 创立了 Five Rays AI，目前独自运营。工作室本身就是一项实验，探索一个人借助人工智能能做出什么。
+Oliver Axel Rübenacker 创立了 Five Rays AI，目前独自运营。工作室本身就是一项实验，探索一个人借助人工智能能做出什么。
 
 Oliver 在科研和软件开发方面有数十年经验，对新技术带来的可能性始终充满好奇。
 
