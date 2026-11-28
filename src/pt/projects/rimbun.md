@@ -1,4 +1,4 @@
-# Rimbun
+# Rimbun![](/assets/projects/rimbun.svg)
 
 O Rimbun permite ler um documento completo e comparar a versão principal de cada secção com alternativas publicadas. Os autores podem editar o rascunho de uma secção e publicá-lo como outra versão.
 

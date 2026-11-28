@@ -1,4 +1,4 @@
-# TrayStack
+# TrayStack![](/assets/projects/traystack.svg)
 
 TrayStack 保存合同原件并索引内容，支持 PDF、JPEG 和 PNG 图片、UTF-8 文本及 HTML。原件仍可下载，提取的文本保留来源。
 

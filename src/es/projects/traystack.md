@@ -1,4 +1,4 @@
-# TrayStack
+# TrayStack![](/assets/projects/traystack.svg)
 
 TrayStack conserva los contratos originales e indexa el contenido de PDF, imágenes JPEG y PNG, texto UTF‑8 y HTML. Los originales se pueden descargar y cada fragmento extraído conserva su procedencia.
 

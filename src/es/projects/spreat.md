@@ -1,4 +1,4 @@
-# Spreat
+# Spreat![](/assets/projects/spreat.svg)
 
 En cada turno se añade un átomo a un hexágono vacío o propio. Si la casilla alcanza tantos átomos como vecinos tiene, estalla y envía uno a cada vecino. Esto puede cambiar el control de casillas y provocar más estallidos.
 

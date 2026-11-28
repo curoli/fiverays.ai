@@ -1,4 +1,4 @@
-# Spreat
+# Spreat![](/assets/projects/spreat.svg)
 
 Em cada turno coloca-se um átomo num hexágono livre ou que já se controla. Quando há tantos átomos como casas adjacentes, a casa rebenta e envia um átomo para cada vizinha. Pode assim tomar essas casas e provocar novas explosões.
 

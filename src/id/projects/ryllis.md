@@ -1,4 +1,4 @@
-# Ryllis
+# Ryllis![](/assets/projects/ryllis.png)
 
 Simpan setiap bahasa dalam direktori sendiri dengan jalur relatif yang sama untuk terjemahan. Ryllis menghasilkan HTML dan menyediakan tautan ke halaman yang sama dalam bahasa lain.
 

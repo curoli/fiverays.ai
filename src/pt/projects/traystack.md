@@ -1,4 +1,4 @@
-# TrayStack
+# TrayStack![](/assets/projects/traystack.svg)
 
 O TrayStack conserva os contratos originais e indexa o seu conteúdo. Suporta PDF, imagens JPEG e PNG, texto UTF‑8 e HTML. Os originais continuam disponíveis para descarregar e cada excerto mantém a indicação da fonte.
 

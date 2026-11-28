@@ -1,4 +1,4 @@
-# TrayStack
+# TrayStack![](/assets/projects/traystack.svg)
 
 TrayStack sözleşme asıllarını saklar ve PDF, JPEG, PNG, UTF-8 metin ve HTML içeriklerini aramaya açar. Asıllar indirilebilir ve alıntılar kaynaklarını belirtir.
 

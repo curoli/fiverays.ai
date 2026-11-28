@@ -1,4 +1,4 @@
-# Ryllis
+# Ryllis![](/assets/projects/ryllis.png)
 
 Write each language in its own directory and give translated pages the same relative path. Ryllis turns those pages into HTML, with links that let readers switch languages while staying on the corresponding page.
 

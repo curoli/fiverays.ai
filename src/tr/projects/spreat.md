@@ -1,4 +1,4 @@
-# Spreat
+# Spreat![](/assets/projects/spreat.svg)
 
 Sıranızda boş veya kontrol ettiğiniz bir altıgene atom eklersiniz. Atom sayısı komşu hücre sayısına ulaşırsa hücre patlar ve her komşuya bir atom gönderir. Bu, hücreleri ele geçirip yeni patlamalar başlatabilir.
 

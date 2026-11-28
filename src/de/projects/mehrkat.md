@@ -1,4 +1,4 @@
-# Mehrkat
+# Mehrkat![](/assets/projects/mehrkat.svg)
 
 Suche nach einem Unternehmen oder Ticker und wähle eine Börsennotierung aus. Filter für Börse, Land oder Branche helfen bei der Auswahl. Mehrkat erstellt anschließend eine Zusammenfassung mit Quellenangaben, über die du die Informationen selbst nachlesen kannst.
 

@@ -1,4 +1,4 @@
-# TrayStack
+# TrayStack![](/assets/projects/traystack.svg)
 
 TrayStack menyimpan kontrak asli dan mengindeks PDF, gambar JPEG atau PNG, teks UTF-8, dan HTML. Berkas asli dapat diunduh dan kutipan menyertakan asalnya.
 

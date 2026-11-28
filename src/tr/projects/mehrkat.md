@@ -1,4 +1,4 @@
-# Mehrkat
+# Mehrkat![](/assets/projects/mehrkat.svg)
 
 Şirket veya hisse kodu arayıp bir kotasyon seçin. Borsa, ülke veya sektör filtreleri seçimi daraltır. Mehrkat kaynakları gösteren bir özet hazırlar.
 

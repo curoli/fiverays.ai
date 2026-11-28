@@ -97,9 +97,10 @@
 
     p, ul { margin: 0 0 1rem; max-width: 65ch; }
     main img { max-inline-size: 100%; block-size: auto; }
-    main :is(h1, h2) img[src="/assets/sanqi/app-icon.svg"] {
+    main :is(h1, h2) img:is([src^="/assets/projects/"], [src="/assets/sanqi/app-icon.svg"]) {
       inline-size: 1em;
-      aspect-ratio: 1;
+      block-size: 1em;
+      object-fit: contain;
       margin-inline-start: .3em;
       vertical-align: -.1em;
       border-radius: .15em;

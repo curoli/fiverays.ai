@@ -1,4 +1,4 @@
-# Spreat
+# Spreat![](/assets/projects/spreat.svg)
 
 Pro Zug setzt ein Spieler ein Atom auf ein freies oder ein eigenes Sechseck. Sobald auf einem Feld so viele Atome liegen, wie es Nachbarfelder hat, explodiert es und gibt je ein Atom an jeden Nachbarn ab. Dadurch können Nachbarfelder übernommen werden und ebenfalls explodieren.
 

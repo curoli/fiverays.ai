@@ -1,4 +1,4 @@
-# Slofox
+# Slofox![](/assets/projects/slofox.svg)
 
 这个 Rust 和 Bevy 原型在虚拟演播室中展示两个虚拟角色。一个响应浏览器中的 ChatGPT 音频，另一个响应麦克风。节目标题和副标题可配置。
 

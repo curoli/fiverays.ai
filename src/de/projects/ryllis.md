@@ -1,4 +1,4 @@
-# Ryllis
+# Ryllis![](/assets/projects/ryllis.png)
 
 Die Inhalte jeder Sprache liegen in einem eigenen Verzeichnis. Übersetzte Seiten erhalten denselben relativen Pfad. Ryllis erzeugt daraus HTML und verlinkt die Sprachfassungen so, dass Leser direkt zur entsprechenden Seite wechseln können.
 

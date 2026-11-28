@@ -1,4 +1,4 @@
-# Rimbun
+# Rimbun![](/assets/projects/rimbun.svg)
 
 Dans Rimbun, les lecteurs peuvent ouvrir un document complet et comparer le texte principal de chaque section à ses variantes publiées. Les auteurs peuvent modifier un brouillon de section et le publier comme nouvelle version.
 

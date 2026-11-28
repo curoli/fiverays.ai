@@ -1,4 +1,4 @@
-# Slofox
+# Slofox![](/assets/projects/slofox.svg)
 
 Slofox is a Rust and Bevy prototype for producing a talk-show scene. One avatar reacts to ChatGPT audio from the browser while the other reacts to the speaker's microphone. Both appear in a virtual studio with a configurable show title and subtitle.
 

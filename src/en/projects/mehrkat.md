@@ -1,4 +1,4 @@
-# Mehrkat
+# Mehrkat![](/assets/projects/mehrkat.svg)
 
 Start by looking up a company or ticker and selecting a listing. Filters for exchange, country, or sector help narrow the selection. Mehrkat then generates a briefing and includes citations so you can inspect the sources yourself.
 

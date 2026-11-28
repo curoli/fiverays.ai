@@ -1,4 +1,4 @@
-# TrayStack
+# TrayStack![](/assets/projects/traystack.svg)
 
 TrayStack اصل معاہدے محفوظ کرتا ہے اور PDF، JPEG، PNG، UTF-8 متن اور HTML کو قابلِ تلاش بناتا ہے۔ اصل فائلیں ڈاؤن لوڈ کی جا سکتی ہیں اور اقتباسات کا ماخذ درج رہتا ہے۔
 

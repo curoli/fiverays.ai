@@ -1,4 +1,4 @@
-# TrayStack
+# TrayStack![](/assets/projects/traystack.svg)
 
 TrayStack は契約書の原本を保存し、PDF、JPEG、PNG、UTF-8 テキスト、HTML の内容を索引化します。原本はダウンロードでき、抽出した文章には出典が残ります。
 

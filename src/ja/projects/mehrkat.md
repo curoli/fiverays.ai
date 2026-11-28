@@ -1,4 +1,4 @@
-# Mehrkat
+# Mehrkat![](/assets/projects/mehrkat.svg)
 
 企業名や銘柄コードで検索し、上場銘柄を選びます。取引所、国、業種で絞り込めます。Mehrkat は出典付きのニュース要約を作成します。
 

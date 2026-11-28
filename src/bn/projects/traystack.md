@@ -1,4 +1,4 @@
-# TrayStack
+# TrayStack![](/assets/projects/traystack.svg)
 
 TrayStack মূল চুক্তি রাখে এবং PDF, JPEG, PNG, UTF-8 টেক্সট ও HTML অনুসন্ধানযোগ্য করে। মূল ফাইল ডাউনলোড করা যায় এবং উদ্ধৃত অংশের উৎস সংরক্ষিত থাকে।
 

@@ -1,4 +1,4 @@
-# Mehrkat
+# Mehrkat![](/assets/projects/mehrkat.svg)
 
 Cari perusahaan atau kode saham lalu pilih pencatatan. Saring menurut bursa, negara, atau sektor. Mehrkat membuat ringkasan dengan rujukan yang dapat diperiksa.
 
