@@ -46,7 +46,7 @@
 ] %}
 
 {% for project in projects | sort(attribute="relevance", reverse=true) %}
-## [{{ project.name }}]({{ project.slug }}.html)
+## [{{ project.name }}{% if project.slug == "sanqi" %}![](/assets/sanqi/app-icon.svg){% endif %}]({{ project.slug }}.html)
 
 {{ project.summary }}
 

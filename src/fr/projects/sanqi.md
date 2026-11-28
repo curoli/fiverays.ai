@@ -1,4 +1,4 @@
-# Sanqi
+# Sanqi![](/assets/sanqi/app-icon.svg)
 
 Le moteur Rust applique les règles au jeu en ligne de commande et au prototype mobile Flutter. Chaque camp peut être joué par une personne ou par l’ordinateur, pour jouer à deux ou s’entraîner.
 

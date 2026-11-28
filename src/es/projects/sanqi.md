@@ -1,4 +1,4 @@
-# Sanqi
+# Sanqi![](/assets/sanqi/app-icon.svg)
 
 El motor Rust aplica las reglas al juego de línea de comandos y al prototipo móvil de Flutter. Cada bando puede estar a cargo de una persona o del ordenador, para jugar en pareja o practicar a solas.
 

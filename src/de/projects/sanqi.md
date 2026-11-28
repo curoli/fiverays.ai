@@ -1,4 +1,4 @@
-# Sanqi
+# Sanqi![](/assets/sanqi/app-icon.svg)
 
 Die Rust-Engine stellt die Regeln sowohl für das Kommandozeilenspiel als auch für den mit Flutter entwickelten Mobilprototyp bereit. Beide Seiten können von einem Menschen oder vom Computer gespielt werden. So lässt sich zu zweit spielen oder allein üben.
 

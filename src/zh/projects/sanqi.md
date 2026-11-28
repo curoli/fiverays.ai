@@ -1,4 +1,4 @@
-# Sanqi
+# Sanqi![](/assets/sanqi/app-icon.svg)
 
 Rust 引擎为命令行版和 Flutter 移动原型提供规则。双方均可由真人或电脑操控，既能双人对弈，也能独自练习。
 

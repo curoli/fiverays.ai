@@ -1,4 +1,4 @@
-# Sanqi
+# Sanqi![](/assets/sanqi/app-icon.svg)
 
 Mesin Rust menjalankan aturan gim baris perintah dan prototipe seluler Flutter. Masing-masing pihak dapat dimainkan manusia atau komputer.
 

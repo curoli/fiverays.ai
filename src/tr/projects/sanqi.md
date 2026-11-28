@@ -1,4 +1,4 @@
-# Sanqi
+# Sanqi![](/assets/sanqi/app-icon.svg)
 
 Rust motoru, komut satırı oyununa ve Flutter mobil prototipine aynı kuralları uygular. Her tarafı bir insan veya bilgisayar oynayabilir.
 

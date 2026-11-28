@@ -1,4 +1,4 @@
-# Sanqi
+# Sanqi![](/assets/sanqi/app-icon.svg)
 
 O motor em Rust aplica as regras tanto ao jogo de linha de comandos como ao protótipo móvel em Flutter. Cada lado pode ser jogado por uma pessoa ou pelo computador, para jogar a dois ou praticar.
 

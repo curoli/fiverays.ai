@@ -1,4 +1,4 @@
-# Sanqi
+# Sanqi![](/assets/sanqi/app-icon.svg)
 
 The Rust engine supplies the rules for both the command-line game and the Flutter mobile prototype. Either side can be played by a person or the computer, so you can play with someone else or practice on your own.
 

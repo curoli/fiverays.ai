@@ -97,6 +97,13 @@
 
     p, ul { margin: 0 0 1rem; max-width: 65ch; }
     main img { max-inline-size: 100%; block-size: auto; }
+    main :is(h1, h2) img[src="/assets/sanqi/app-icon.svg"] {
+      inline-size: 1em;
+      aspect-ratio: 1;
+      margin-inline-start: .3em;
+      vertical-align: -.1em;
+      border-radius: .15em;
+    }
     main img[src="/assets/oliver.jpg"] {
       inline-size: min(100%, 24rem);
       aspect-ratio: auto 3 / 4;
