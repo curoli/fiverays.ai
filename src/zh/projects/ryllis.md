@@ -1,4 +1,4 @@
-# Ryllis
+# Ryllis![](/assets/projects/ryllis.png)
 
 为每种语言创建独立目录，并让各译文使用相同的相对路径。Ryllis 将内容转为 HTML，让读者切换到同一页面的其他语言。
 

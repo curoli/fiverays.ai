@@ -1,4 +1,4 @@
-# TrayStack
+# TrayStack![](/assets/projects/traystack.svg)
 
 TrayStack मूल अनुबंध सहेजता है और PDF, JPEG, PNG, UTF-8 टेक्स्ट और HTML की सामग्री खोजने योग्य बनाता है। मूल फ़ाइलें डाउनलोड की जा सकती हैं और निकाले गए टेक्स्ट में स्रोत दर्ज रहता है।
 

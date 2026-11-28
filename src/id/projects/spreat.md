@@ -1,4 +1,4 @@
-# Spreat
+# Spreat![](/assets/projects/spreat.svg)
 
 Pada setiap giliran, tambahkan atom pada heksagon kosong atau milik sendiri. Jika atom mencapai jumlah petak tetangga, petak meledak dan mengirim atom ke setiap tetangga. Ini bisa merebut petak dan memicu ledakan lanjutan.
 

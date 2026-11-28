@@ -1,4 +1,4 @@
-# Ryllis
+# Ryllis![](/assets/projects/ryllis.png)
 
 Placez chaque langue dans son propre dossier et donnez aux traductions le même chemin relatif. Ryllis produit des pages HTML et permet de changer de langue tout en restant sur la page correspondante.
 

@@ -1,4 +1,4 @@
-# Mehrkat
+# Mehrkat![](/assets/projects/mehrkat.svg)
 
 Pesquise uma empresa ou um símbolo e escolha uma cotação. Pode filtrar por bolsa, país ou setor. O Mehrkat prepara um resumo com citações para consultar as fontes.
 

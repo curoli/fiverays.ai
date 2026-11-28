@@ -1,4 +1,4 @@
-# Slofox
+# Slofox![](/assets/projects/slofox.svg)
 
 Rust と Bevy の試作版では、二人のアバターが仮想スタジオに登場します。一人はブラウザーの ChatGPT 音声に、もう一人はマイクに反応します。番組のタイトルと副題を設定できます。
 

@@ -1,4 +1,4 @@
-# Rimbun
+# Rimbun![](/assets/projects/rimbun.svg)
 
 Pembaca dapat membuka dokumen utuh dan membandingkan versi utama setiap bagian dengan alternatif yang telah terbit. Penulis dapat menyunting draf bagian dan menerbitkannya sebagai versi lain.
 

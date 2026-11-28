@@ -1,4 +1,4 @@
-# Mehrkat
+# Mehrkat![](/assets/projects/mehrkat.svg)
 
 查找公司或股票代码后选择上市标的，可按交易所、国家或行业筛选。Mehrkat 生成附有引文的简报，方便查阅来源。
 

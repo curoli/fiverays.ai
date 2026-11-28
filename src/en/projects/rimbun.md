@@ -1,4 +1,4 @@
-# Rimbun
+# Rimbun![](/assets/projects/rimbun.svg)
 
 Rimbun makes alternative wording visible in the reading experience. A reader can open a full document and then compare the main version of a section with its published alternatives. Writers can edit a section draft and publish it as another version.
 

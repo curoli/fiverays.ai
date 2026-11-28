@@ -1,4 +1,4 @@
-# TrayStack
+# TrayStack![](/assets/projects/traystack.svg)
 
 TrayStack хранит оригиналы договоров и индексирует PDF, изображения JPEG и PNG, текст UTF-8 и HTML. Оригиналы можно скачать, а у каждого фрагмента указан источник.
 

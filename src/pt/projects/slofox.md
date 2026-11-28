@@ -1,4 +1,4 @@
-# Slofox
+# Slofox![](/assets/projects/slofox.svg)
 
 Este protótipo em Rust e Bevy coloca dois avatares num estúdio virtual. Um reage ao áudio do ChatGPT no navegador e o outro ao microfone. É possível configurar o título e o subtítulo do programa.
 

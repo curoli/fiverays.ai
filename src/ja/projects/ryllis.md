@@ -1,4 +1,4 @@
-# Ryllis
+# Ryllis![](/assets/projects/ryllis.png)
 
 言語別にディレクトリを作成し、翻訳には同じ相対パスを使います。Ryllis が HTML を生成し、対応するページを表示したまま別の言語に切り替えられます。
 

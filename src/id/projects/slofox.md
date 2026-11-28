@@ -1,4 +1,4 @@
-# Slofox
+# Slofox![](/assets/projects/slofox.svg)
 
 Prototipe Rust dan Bevy ini menempatkan dua avatar di studio virtual. Satu menanggapi audio ChatGPT di peramban, satu lagi menanggapi mikrofon. Judul acara dan subjudul dapat diatur.
 

@@ -1,4 +1,4 @@
-# Spreat
+# Spreat![](/assets/projects/spreat.svg)
 
 À chaque tour, on ajoute un atome sur un hexagone libre ou déjà contrôlé. Dès qu’une case contient autant d’atomes que de voisines, elle éclate et envoie un atome à chacune, ce qui peut leur faire changer de camp et déclencher d’autres explosions.
 

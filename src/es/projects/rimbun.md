@@ -1,4 +1,4 @@
-# Rimbun
+# Rimbun![](/assets/projects/rimbun.svg)
 
 Rimbun permite abrir un documento completo y comparar el texto principal de cada sección con las alternativas publicadas. Quien escribe puede editar el borrador de una sección y publicarlo como otra versión.
 

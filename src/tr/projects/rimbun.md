@@ -1,4 +1,4 @@
-# Rimbun
+# Rimbun![](/assets/projects/rimbun.svg)
 
 Okurlar bütün bir belgeyi açıp her bölümün ana metnini yayımlanmış seçeneklerle karşılaştırabilir. Yazarlar taslakları düzenleyip başka bir sürüm olarak yayımlayabilir.
 

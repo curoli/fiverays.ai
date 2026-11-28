@@ -1,4 +1,4 @@
-# Mehrkat
+# Mehrkat![](/assets/projects/mehrkat.svg)
 
 Busca una empresa o símbolo bursátil y elige una cotización. Los filtros de bolsa, país y sector acotan la selección. Mehrkat genera un informe con citas para consultar las fuentes.
 

@@ -1,4 +1,4 @@
-# TrayStack
+# TrayStack![](/assets/projects/traystack.svg)
 
 TrayStack bewahrt die Originaldateien auf und bereitet ihren Inhalt für die Suche auf. Es unterstützt PDFs, JPEG- und PNG-Bilder sowie UTF-8-Textdateien und HTML. Die Originaldateien bleiben zum Download verfügbar, und der extrahierte Text enthält Angaben zu seiner Herkunft.
 

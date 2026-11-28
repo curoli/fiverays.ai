@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title id="title">Rimbun</title>
+  <defs>
+    <pattern id="curls" width="32" height="32" patternUnits="userSpaceOnUse" patternTransform="rotate(-12)">
+      <path d="M-5 17C-2 8 10 8 13 16c2 6-5 10-9 6-2-2-1-5 2-5m9 16c-3-8 2-16 9-16 7 0 10 7 7 12-3 4-9 2-9-2 0-2 2-3 4-3M17 1c-1 7 5 13 11 10 4-2 4-7 1-9m-27 2c4 3 9 2 12-3" fill="none" stroke="#995045" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M0 28c5 3 10 1 12-3M17 13c-1-4-5-7-9-6M24 15c4-1 8 0 10 3" fill="none" stroke="#ce7860" stroke-width="1.6" stroke-linecap="round"/>
+    </pattern>
+  </defs>
+  <rect width="96" height="96" rx="19" fill="#4a272d"/>
+  <rect width="96" height="96" rx="19" fill="url(#curls)"/>
+  <path d="M21 46c0-20 11-32 28-32 16 0 27 11 28 31l-5 18c-3 13-13 23-24 23S26 75 23 62Z" fill="#4a272d"/>
+  <path d="M28 46c11-4 20-11 24-21 3 9 9 15 16 19l1 9c0 13-10 27-21 27S27 67 27 53Z" fill="#f5b78c"/>
+  <path d="M34 51q4-5 8 0m12 0q4-5 8 0" fill="none" stroke="#4a272d" stroke-width="2.7" stroke-linecap="round"/>
+  <path d="M39 62q9 3 18 0c-1 6-5 9-9 9s-8-3-9-9Z" fill="#803d45"/>
+  <path d="M41 63q7 1.6 14 0-2 3.5-7 3.5T41 63Z" fill="#fff4e4"/>
+  <path d="M25 40c13-4 20-11 22-20m7 0c3 9 9 15 17 19" fill="none" stroke="#ce7860" stroke-width="2.3" stroke-linecap="round"/>
+</svg>

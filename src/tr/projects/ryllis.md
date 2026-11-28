@@ -1,4 +1,4 @@
-# Ryllis
+# Ryllis![](/assets/projects/ryllis.png)
 
 Her dili ayrı bir dizine yerleştirin ve çevirilerde aynı göreli yolu kullanın. Ryllis HTML üretir ve karşılık gelen sayfada dil değiştirmenizi sağlar.
 

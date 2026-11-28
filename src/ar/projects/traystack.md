@@ -1,4 +1,4 @@
-# TrayStack
+# TrayStack![](/assets/projects/traystack.svg)
 
 يحتفظ TrayStack بالعقود الأصلية ويفهرس محتوى ملفات PDF وصور JPEG وPNG ونصوص UTF-8 وملفات HTML. تبقى الأصول قابلة للتنزيل، وتظل مصادر المقاطع المستخرجة مسجّلة.
 

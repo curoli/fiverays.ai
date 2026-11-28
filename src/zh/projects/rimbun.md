@@ -1,4 +1,4 @@
-# Rimbun
+# Rimbun![](/assets/projects/rimbun.svg)
 
 读者可打开完整文档，对照每一节的主版本和已发布的其他写法。作者可编辑某一节的草稿，并将其发布为新版本。
 

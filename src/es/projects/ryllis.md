@@ -1,4 +1,4 @@
-# Ryllis
+# Ryllis![](/assets/projects/ryllis.png)
 
 Coloca cada idioma en su propia carpeta y asigna a las traducciones la misma ruta relativa. Ryllis genera las páginas HTML y permite cambiar de idioma sin abandonar la página correspondiente.
 

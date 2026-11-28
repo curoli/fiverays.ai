@@ -1,4 +1,4 @@
-# Slofox
+# Slofox![](/assets/projects/slofox.svg)
 
 Ce prototype en Rust et Bevy met en scène deux avatars dans un studio virtuel. L’un réagit à l’audio de ChatGPT dans le navigateur, l’autre au micro. Le titre et le sous-titre de l’émission sont configurables.
 
