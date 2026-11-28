@@ -104,6 +104,27 @@
       vertical-align: -.1em;
       border-radius: .15em;
     }
+    main p:has(> img[src^="/assets/sanqi/"][src$="/feature-graphic.png"]),
+    main p:has(> a[href^="/assets/sanqi/"][href$="/01-opening.png"]) {
+      max-inline-size: 52rem;
+    }
+    main img[src^="/assets/sanqi/"][src$="/feature-graphic.png"] {
+      display: block;
+      inline-size: 100%;
+      aspect-ratio: auto 1024 / 500;
+      border-radius: .5rem;
+    }
+    main p:has(> a[href^="/assets/sanqi/"][href$="/01-opening.png"]) {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr));
+      gap: .75rem;
+    }
+    main a[href^="/assets/sanqi/"][href$=".png"] img {
+      display: block;
+      inline-size: 100%;
+      aspect-ratio: auto 1080 / 2340;
+      border-radius: .35rem;
+    }
     main img[src="/assets/oliver.jpg"] {
       inline-size: min(100%, 24rem);
       aspect-ratio: auto 3 / 4;
